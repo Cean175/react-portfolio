@@ -3,7 +3,9 @@ import './App.css';
 
 function App() {
   return (
+    
     <div className="App">
+      
       <Header />
       <AboutMe />
       <Projects />
@@ -32,7 +34,7 @@ function AboutMe() {
     <section id="about" className="section">
       <h2>About Me</h2>
       <p>
-        Hello! I am a passionate web developer with experience in React, JavaScript, and other modern web technologies.
+        Hello, I am a 3rd year computer science student learning web development. Thank you!
       </p>
     </section>
   );
@@ -44,14 +46,11 @@ function Projects() {
       <h2>Projects</h2>
       <ul>
         <li>
-          <strong>Project 1: </strong>
-          <p>Description of your first project here.</p>
+         <p><strong>CALCULATOR </strong>Let's you add and substract numbers using a calculator.</p>
         </li>
         <li>
-          <strong>Project 2: </strong>
-          <p>Description of your second project here.</p>
+         <p> <strong>ATM PROGRAM </strong>Let's you cash in, cash deposit and withdraw money</p>
         </li>
-        {/* Add more projects as needed */}
       </ul>
     </section>
   );
@@ -61,8 +60,9 @@ function ContactMe() {
   return (
     <section id="contact" className="section">
       <h2>Contact Me</h2>
-      <p>Email: your-email@example.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">Your LinkedIn</a></p>
+      <p>Email:cean_darius_katigbak@dlsl.edu.ph</p>
+      <p>Facebook:<a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+      <p>Instagram <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">Instagram</a></p>
     </section>
   );
 }
